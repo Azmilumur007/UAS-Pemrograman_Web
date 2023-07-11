@@ -1,0 +1,578 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F2F3F2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1080px !important;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  padding: 48px 0px 48px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.nav-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;  
+  position: relative;
+  width: 100%;
+}
+.logo-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo-nav .azmil-umur {
+  color: #000000;
+  text-align: left;
+  font: 400 18px/28px "Inter", sans-serif;
+  position: relative;
+}
+.menu-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.list-menu {
+  padding: 8px 20px 8px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;  
+}
+.list-menu .about-me {
+  color: var(--black, #46434e);
+  text-align: left;
+  font: 500 18px/28px "Fira Sans", sans-serif;
+  position: relative;
+  transition-duration: 300ms;
+}
+.list-menu .portfolioss {
+  color: var(--black, #46434e);
+  text-align: left;
+  font: 500 18px/28px "Fira Sans", sans-serif;
+  position: relative;
+  transition-duration: 300ms;
+}
+.list-menu .contact-nav {
+  color: var(--black, #46434e);
+  text-align: left;
+  font: 500 18px/28px "Fira Sans", sans-serif;
+  position: relative;
+  transition-duration: 300ms;
+}
+
+.list-menu:hover .about-me, .list-menu:hover .portfolioss, .list-menu:hover .contact-nav {
+  color: #E6813E;
+}
+/* End Of Navbar */
+
+/* Header */
+.header,
+.header * {
+  box-sizing: border-box;
+}
+.header {
+  padding: 48px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.header-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.intro-text-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.hi-i-am {
+  color: var(--primary-500, #e6813e);
+  text-align: left;
+  font: 500 24px/32px "Fira Sans", sans-serif;
+  position: relative;
+}
+.azmil {
+  color: var(--secondary-500, #45577b);
+  text-align: left;
+  font: 900 72px/125% "Fira Sans", sans-serif;
+  position: relative;
+}
+.intro-border {
+  background: var(--primary-500, #e6813e);
+  flex-shrink: 0;
+  width: 80px;
+  height: 8px;
+  position: relative;
+}
+.intro-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.facebook {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.instagram {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.whatsapp {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.avatar {
+  flex-shrink: 0;
+  width: 523px;
+  height: 559.25px;
+  position: static;
+}
+.rectangle-10 {
+  background: #c4c4c4;
+  width: 523px;
+  height: 559.25px;
+  position: absolute;
+  left: 255.5px;
+  top: 0px;
+}
+.bcfec-5-a-3-a-40-c-4622-8-bcc-b-839-c-1-fae-37-b-removebg-1 {
+  width: 1128.85px;
+  height: 836.28px;
+  position: absolute;
+  left: -90px;
+  top: -277px;
+}
+.keterangan {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 370px;
+  position: relative;
+}
+.mahasiswa-pti-undikma-indonesia {
+  color: var(--secondary-500, #45577b);
+  text-align: left;
+  font: 700 36px/125% "Fira Sans", sans-serif;
+  position: relative;
+}
+.saya-seorang-mahasiswa-semester-4-website-ini-ada-sebagai-bahan-uas-mata-kuliah-pemograman-web {
+  color: var(--body, #7c808b);
+  text-align: left;
+  font: 400 18px/28px "Fira Sans", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.button-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-layout .portfolio-link {
+  background: var(--primary-500, #e6813e);
+  border-radius: 6px;
+  padding: 12px 20px 12px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: var(--shadow-1-box-shadow, 0px 1px 2px 0px rgba(0, 0, 0, 0.12));
+}
+.button {
+  color: var(--light, #f2f3f2);
+  text-align: center;
+  font: 400 18px/28px "Fira Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download {
+  border-radius: 6px;
+  padding: 12px 20px 12px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: var(--shadow-1-box-shadow, 0px 1px 2px 0px rgba(0, 0, 0, 0.12));
+}
+.heroicons-outline-arrow-down-tray {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.button2 {
+  color: var(--secondary-500, #45577b);
+  text-align: center;
+  font: 400 18px/28px "Fira Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* End of Header */
+
+/* about */
+.about {
+  background: var(--black, #46434e);
+  border-radius: 12px;
+  padding: 72px 40px 72px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+.about-image {
+  flex-shrink: 0;
+  width: 499px;
+  height: 445px;
+  position: static;
+}
+.rectangle-15 {
+  background: #c4c4c4;
+  width: 499px;
+  height: 445px;
+  position: absolute;
+  left: 40px;
+  top: 72px;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 475px;
+  position: relative;
+}
+.about-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.about-subtitle {
+  color: var(--primary-500, #e6813e);
+  text-align: left;
+  font: 500 18px/28px "Fira Sans", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.about-title {
+  color: var(--light, #f2f3f2);
+  text-align: left;
+  font: 700 36px/125% "Fira Sans", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.about-paragraph {
+  color: var(--base, #e0e0e0);
+  text-align: left;
+  font: 400 18px/28px "Fira Sans", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+/* end of about */
+
+/* Portfolio */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-top: 100px;
+}
+
+.portfolio > .frame-69 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: auto;
+  width: 395px;
+  position: relative;
+}
+.portfolio > .frame-69 > .text-1 {
+  color: var(--primary-500, #e6813e);
+  text-align: right;
+  font: 500 18px/28px "Fira Sans", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.portfolio > .frame-69 > .text-2 {
+  color: var(--secondary-500, #45577b);
+  text-align: right;
+  font: 700 36px/125% "Fira Sans", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.content-owl {
+  border-radius: 32px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.content-owl .hover-owl {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 196px;
+  padding: 40px 37px 40px 37px;
+  transform: translateY(200px);
+  transition-duration: 300ms;
+}
+.content-owl:hover .hover-owl {
+  transform: translateY(0);
+}
+.hover-owl h4 {
+  color: var(--primary-500, #e6813e);
+  text-align: left;
+  font: 500 18px/28px "Fira Sans", sans-serif;
+}
+.hover-owl h3 {
+  color: var(--black, #46434e);
+  text-align: left;
+  font: 500 24px/32px "Fira Sans", sans-serif;
+  position: relative;
+}
+.hover-owl p {
+  color: var(--body, #7c808b);
+  text-align: left;
+  font: 400 18px/28px "Fira Sans", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+/* End of Portfolio */
+
+/* Contact */
+.contact {
+  margin-top: 100px;
+}
+.contact-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.contact-header .text-1 {
+  color: var(--primary-500, #e6813e);
+  text-align: left;
+  font: 500 18px/28px "Fira Sans", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.contact-header .text-2{
+  color: var(--secondary-500, #45577b);
+  text-align: left;
+  font: 700 36px/125% "Fira Sans", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.platform {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.platform-content {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.text {
+  color: var(--dark, #434343);
+  text-align: left;
+  font: 400 24px/28px "Fira Sans", sans-serif;
+  position: relative;
+}
+.icon2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icon3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icon4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+/* End of Contact */
+
+/* Footer */
+.footer {
+  padding: 48px 0px 48px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.footer-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+}
+.footer-line {
+  border-style: solid;
+  border-color: var(--accent, #7a8391);
+  border-width: 1px 0 0 0;
+  flex-shrink: 0;
+  width: 100%;
+  height: 0px;
+  position: relative;
+}
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.footer-text {
+  color: var(--dark, #434343);
+  text-align: left;
+  font: 400 18px/28px "Fira Sans", sans-serif;
+  position: relative;
+}
+.footer-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-layout {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icon-layout2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icon-layout3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+/* End of Footer */
